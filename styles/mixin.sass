@@ -1,0 +1,28 @@
+@import "colors"
+@import "typigraphics"
+
+$breakpoint-mobile-min: 320px
+$breakpoint-mobile-max: 767px
+$breakpoint-tablet-min: 768px
+$breakpoint-tablet-max: 1023px
+$breakpoint-desktop-min: 1024px
+
+@mixin fontSize ($size)
+  font-size: calc($size + 5vw)
+  line-height: calc($size + 4px + 5vw)
+
+@mixin device ($breakpoint)
+  @if $breakpoint == mobile
+    @media (min-width: $breakpoint-mobile-min) and (max-width: $breakpoint-mobile-max)
+      @content
+
+  @if $breakpoint == tablet
+    @media (min-width: $breakpoint-tablet-min) and (max-width: $breakpoint-tablet-max)
+      @content
+
+  @if $breakpoint == desktop
+    @media (min-width: $breakpoint-desktop-min)
+      @content
+
+
+

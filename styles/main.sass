@@ -1,0 +1,44 @@
+@import "mixins.sass"
+
+*
+  box-sizing: border-box
+
+body
+  margin: 0
+  padding: 0
+
+.container
+  display: flex
+  align-items: center
+  justify-content: center
+  gap: 20px
+
+  @include device(tablet)
+    flex-wrap: wrap
+
+  @include device(mobile)
+    flex-wrap: wrap
+
+  &__card
+    width: 33%
+    height: 200px
+    border: 4px blue solid
+
+    @include device(tablet)
+      width: 90%
+
+    @include device(mobile)
+      width: 90%
+
+
+  &__title
+    @include fontSize(16px)
+
+    @include device(mobile)
+      color: red
+
+    @include device(tablet)
+      color: blue
+
+    @include device(desktop)
+      color: cyan
