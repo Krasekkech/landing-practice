@@ -5,12 +5,8 @@
 html{
     font-family: WebFont, serif;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
+header{
     width: 1440px;
-    padding-top: 7px;
-    padding-left: 30px;
 }
 nav > ul{
     width: 100%;
@@ -112,6 +108,7 @@ li{
     justify-content: center;
     font-size: 52px;
     font-weight: 600;
+    letter-spacing: -1px;
 }
 .header__list-content3{
     display: flex;
@@ -119,6 +116,47 @@ li{
     font-size: 14px;
     font-weight: 400;
 }
+.header__list-content4{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+    letter-spacing: -0.4px;
+    line-height: 32px;
+}
+logossection{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+.logos__content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 52px;
+}
+.logos__group{
+    display: flex;
+    justify-content: center;
+    padding: 0 0;
+    margin: 0 0;
+    align-items: center;
+}
+.logos__images{
+    display: flex;
+    justify-content: center;
+    padding-right: 40px;
+}
+.logos__group1{
+    width: 100%;
+    padding: 52px 0;
+    border: 1px solid #D0D5DD;
+    border-left: 0;
+    border-right: 0;
+
+}
+
 
 
 
