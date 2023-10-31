@@ -71,13 +71,13 @@ li{
     display: contents;
 
 }
-.header__text{
+.content__elements{
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin: 0 auto;
 }
-.header__images{
+.content__images{
     display: flex;
     justify-content: space-between;
     width: 50%;
@@ -86,7 +86,7 @@ li{
     object-fit: cover;
 }
 
-.header__textcontent{
+.content__text{
     display: flex;
     justify-content: center;
     width: 50%;
@@ -97,26 +97,26 @@ li{
     flex-direction: column;
     align-content: center;
 }
-.header__list-content1{
+.content__list-text1{
     display: flex;
     justify-content: center;
     font-size: 16px;
     font-weight: 600;
 }
-.header__list-content2{
+.content__list-text2{
     display: flex;
     justify-content: center;
     font-size: 52px;
     font-weight: 600;
     letter-spacing: -1px;
 }
-.header__list-content3{
+.content__list-text3{
     display: flex;
     justify-content: center;
     font-size: 14px;
     font-weight: 400;
 }
-.header__list-content4{
+.content__list-text4{
     display: flex;
     justify-content: center;
     font-size: 18px;
@@ -203,6 +203,9 @@ bannergrid{
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
+}
+content{
+    padding: 52px;
 }
 
 
