@@ -1,6 +1,6 @@
 @font-face {
     font-family: WebFont;
-    src: url("assets/fonts/Inter-Regular.ttf");
+    src: url("../work4/fonts/Inter-Regular.ttf");
 }
 html{
     font-family: WebFont, serif;
@@ -205,8 +205,240 @@ bannergrid{
     line-height: 28px;
 }
 content{
+    display: block;
     padding: 52px;
 }
 
+CTA{
+    display: block;
+    padding: 52px;
+    width: 1359px;
+    height: 334px;
+}
 
+.CTA__content{
+    display: flex;
+    justify-content: center;
+    height:100%;
+    padding: 1px;
+    border-radius: 12px;
+    border: 1px solid #9D9FA1;
+}
 
+.CTA__content-elements{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.CTA__content-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.CTA__content-text1{
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 54px;
+    letter-spacing: -0.4px;
+
+}
+.CTA__content-text2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.CTA__content-form-input{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.CTA__content-input{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #D0D5DD;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CTA__content-input-item{
+    display: flex;
+    width: 100%;
+}
+
+.email_add{
+    width: 100%;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.email_btn{
+    width: 53px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    background:none;
+    border-style: none;
+    display: flex;
+
+}
+
+bannerImage{
+    /*background-image: url("images/Paste image.png");*/
+    display: block;
+    padding: 52px;
+    width: 1359px;
+    height: 494px;
+}
+.bannerimage_elements{
+    display: flex;
+    justify-content: center;
+    background-image: url("images/Paste image.png");
+    height:100%;
+    align-items: center;
+}
+
+.bannerimage_content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 478px;
+    height: 181px;
+}
+
+.bannerimage_content-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.bannerimage_content-text1{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: -0.4px;
+    color: white;
+    text-align: center;
+    padding-right: 9px;
+}
+
+.bannerimage_content-text2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    align-content: center;
+    color: white;
+    text-align: center;
+}
+
+.bannerimage_btn{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+footer{
+    width: 1359px;
+    height: 381px;
+    padding: 72px 52px 32px 52px;
+    background-color: #F9FAFB;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 72px;
+}
+
+.footer_content-left{
+    width: 310px;
+    height: auto;
+}
+
+.footer_logo-info{
+    padding: 0;
+}
+
+.footer_logo-info-list{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #475467;
+}
+
+.footer_social-icons{
+    display: flex;
+}
+
+.footer_icons{
+    padding: 0;
+    display: flex;
+    height: 36px;
+}
+
+.footer_icons-images{
+   padding: 9px;
+    width: 18px;
+}
+
+.footer_icons-list{
+    border: 9px;
+    border-radius: 100px;
+    background-color: white;
+    margin-right: 16px;
+}
+
+.footer_content-columns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_column{
+    padding-left: 160px;
+}
+
+.footer_column-heading{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 4px;
+}
+.footer_column-items{
+    padding: 0;
+    margin: 0;
+}
+
+.footer_column-item-list{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5F6980;
+    padding-top: 12px;
+    margin: 0;
+}
+
+.footer_bottom{
+    padding-top: 24px;
+    border-top: 1px solid #D0D5DD;
+}
+
+.footer_bottom-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5F6980;
+
+}
